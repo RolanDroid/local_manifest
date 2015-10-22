@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	 <remove-project name="temasek/OTAUpdates" />
   <project name="RolanDroid/android_device_motorola_thea" path="device/motorola/thea" revision="temasek-5.1" remote="github" />
-  <project name="RolanDroid/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" revision="cm-12.1" remote="github" />
+  <project name="RolanDroid/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" revision="temasek-5.1" remote="github" />
   <project name="RolanDroid/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" revision="cm-12.1" remote="github" />
   <project name="RolanDroid/proprietary_vendor_motorola" path="vendor/motorola" revision="cm-12.1" remote="github" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" revision="cm-12.1" remote="github" />
