@@ -17,7 +17,7 @@ Project for motorola Moto G 2014 LTE (THEA)
 
 ### Initializing Repo ###
 ```bash
-    $ repo init -u git://github.com/Euphoria-OS/android_manifest.git -b lollipop-5.1
+    $ repo init -u git://github.com/Euphoria-OS-Legacy/android_manifest.git -b lollipop-5.1
     $ curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/Euphoria-OS/local_manifest.xml
 ```
 ### For sync: ###
