@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="TeamBliss-Devices/proprietary_vendor_motorola" />
   <project path="device/motorola/thea" name="RolanDroid/android_device_motorola_thea" revision="blisspop-5.1" remote="github" />
   <project path="device/motorola/msm8226-common" name="RolanDroid/android_device_motorola_msm8226-common" revision="blisspop-5.1" remote="github" />
   <project path="kernel/motorola/msm8226" name="RolanDroid/android_kernel_motorola_msm8226" revision="cm-12.1" remote="github" />
