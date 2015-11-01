@@ -18,7 +18,10 @@ Project for motorola Moto G 2014 LTE (THEA)
 ### Initializing Repo ###
 ```bash
     $ repo init -u https://github.com/AICP/platform_manifest.git -b lp5.1
+### For AICP normal build: ###
     $ curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/aicp-5.1/local_manifest.xml
+### For AICP with TEST Sources: ###
+    $ curl --create-dirs -L -o .repo/local_manifests/thea_test.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/aicp-5.1/thea_test.xml
 ```
 ### For sync: ###
 ```bash
