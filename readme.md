@@ -17,18 +17,18 @@ Project for motorola Moto G 2014 LTE (THEA)
 
 ### Initializing Repo ###
 ```bash
-    $ repo init -u https://github.com/AICP/platform_manifest.git -b mm6.0
-### For AICP normal build: ###
-    $ curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/aicp-6.0/local_manifest.xml
+    $ repo init -u https://github.com/AOKP/platform_manifest.git -b mm
+    $ curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/aokp/local_manifest.xml
 ```
 ### For sync: ###
 ```bash
-    $repo sync -j4
+    $repo sync 
 ```
 ### To build for your device.. ###
 ```bash
     $ . build/envsetup.sh
-    $ brunch device_name_here
+    $ make clean && make clobber
+    $ brunch thea
 ```
 
 

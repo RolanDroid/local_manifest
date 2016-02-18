@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="AICP/device_motorola_thea" path="device/motorola/thea" revision="mm6.0" remote="github" />
-  <project name="AICP/device_motorola_msm8226-common" path="device/motorola/msm8226-common" revision="mm6.0" remote="github" />
-  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" revision="cm-13.0" remote="github" />
-  <project name="AICP/proprietary_vendor_motorola" path="vendor/motorola" revision="mm6.0" remote="github" />
+  <project name="RolanDroid/android_device_motorola_thea" path="device/motorola/thea"  remote="github" revision="aokp-m" />
+  <project name="CyanogenMod/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common"  remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-13.0"  />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
 </manifest>
