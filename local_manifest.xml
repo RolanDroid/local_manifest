@@ -4,5 +4,5 @@
   <project name="RolanDroid/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common"  remote="github" revision="aokp-m" />
   <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-13.0"  />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_hardware_qcom_common" path="hardware/qcom/common" revision="cm-13.0" remote="github" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" revision="cm-13.0" remote="github" />
 </manifest>
