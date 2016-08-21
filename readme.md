@@ -1,6 +1,6 @@
-THEA-LOCAL_MANIFEST
+LOCAL_MANIFEST
 ========================
-Project for motorola Moto G 2014 LTE (THEA)
+Project for motorola Moto G 2015  (OSPREY)
 
 ### Installing Repo ###
 ```bash
@@ -17,8 +17,8 @@ Project for motorola Moto G 2014 LTE (THEA)
 
 ### Initializing Repo ###
 ```bash
-    $ repo init -u https://github.com/temasek/android.git -b cm-12.1
-    $ curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/Temasek-5.1/local_manifest.xml
+    $ repo init -u https://github.com/temasek/android.git -b cm-13.0
+    $ curl --create-dirs -L -o .repo/local_manifests/temasek.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/cm-13.0-temasek/temasek.xml
 ```
 ### For sync: ###
 ```bash
