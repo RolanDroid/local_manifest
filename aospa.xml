@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="bb"
-        fetch="https://bitbucket.org" />
 
 <!-- OSPREY -->
- <remove-project name="temasek/OTAUpdates" />
   <project name="RolanDroid/android_device_motorola_osprey" path="device/motorola/osprey" remote="github"  revision="aospa" />
   <project name="RolanDroid/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github"  revision="aospa" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
