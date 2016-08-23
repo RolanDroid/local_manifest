@@ -18,7 +18,7 @@ Project for motorola Moto G 2015  (OSPREY)
 ### Initializing Repo ###
 ```bash
     $ repo init -u https://github.com/temasek/android.git -b cm-13.0
-    $ curl --create-dirs -L -o .repo/local_manifests/temasek.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/cm-13.0-temasek/temasek.xml
+    $ curl --create-dirs -L -o .repo/local_manifests/aospa.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/aospa/aospa.xml
 ```
 ### For sync: ###
 ```bash
